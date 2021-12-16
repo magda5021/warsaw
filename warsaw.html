@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Magdalena Frackiewicz
+    Project: A Tour Around Poland
+	
+	All rights reserved.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Warsaw</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        background: #f1f1f1;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+        padding: 50px;
+        text-align: center;
+        background: white;
+        background-image: url("warsaw-panorama.jpg");
+        
+    }
+    
+    .header h1 {
+        font-size: 50px;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+        float: left;
+        width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+    }
+    
+    /* image */
+    .image1 {
+        background-color: #aaa;
+        background-image: url("warsaw2.jpg");
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+        }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+        .topnav a {
+        float: none;
+        width: 100%;
+        }
+    }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Warsaw the Capitol of Poland</h1>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+        <h2>Warsaw</h2>
+        <div class="image1" style="height:100px;"></div>
+        <p>Warsaw is the capitol of Poland and it is the biggest city in the country. Warsaw is locatated on the east-central part of the country along Vistula River.
+            Warsaw is the political centre of the country. All state agencies are located in the city, including the Polish Parliament, the Presidential Office,
+            the Supreme Court, Warsaw Stock Exchange nad the National Polish Bank. Warsaw is also a home of Frontex agency which is The European Border and Coast 
+            Guard Agency. The tallest building in Poland is PKiN, located in Warsaw and its height is 237m. Palace of Culture and Science was invented by Jozef Stalin. 
+            Constructed in 1955, it houses various public and cultural institutions such as cinemas, theatres, libraries, sports clubs, university faculties and 
+            authorities of the Polish Academy of Sciences. Since 2007 it has been enlisted in the Registry of Objects of Cultural Heritage.
+            The Palace of Culture and Science is a highly controversial building for some, and is often viewed as a reminder of Soviet influence over the 
+            Polish People's Republic, especially due to its construction during mass violations of human rights under Joseph Stalin.</p>
+        
+    </div>
+    <div class="card">
+      </div>
+        <h2>Restaurants</h2>
+        <div class="row">
+            <div class="column">
+              <img src="nines3.jpg" alt="nines" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="pierogi.jpg" alt="pierogi" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="vege.jpg" alt="vege" style="width:100%">
+            </div>
+        <p><b>1. NINE'S:</b></p>
+        In 2020 famous polish football player Rober Lewandowski openned own restaurant/sport bar "NINE'S." NINES is not a random name. The number nine dominates inside 
+        the restaurant due to Lewandowski plays with number nine. The restaurants offers bawarian pretzels in shape of number nine. The restaurants is located on four levels and offers four different concepts and experience. 
+        The first two floors offers America, Asian, adn Polish cusine. The third and fourth floor is used as an event lounge with telescopic grandstands and a 
+        giant screne, and a collection of legendary objects related to the history of sport. 
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://nines.com.pl">NINE'S</a></li>
+        <p><b>2. Falla Warszawa</b></p>
+        Falla is located in the heart of the old town, close to the Royal Route in Warsaw. This cozy restaurant offers modern plant cuisine based on recipes from 
+        the Middle East. Here you can try hummus, different vegetarian wraps, falafels, and many more! It can be a perfect place to rest for a while after walking 
+        in the city or quickly grab some lunch during your travel.
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://fallawege.pl/">Fallawege</a></li>
+        <p><b>3. Manekin</b></p>
+        Naleśniki, the Polish name for crepes, are one of the most popular dishes in Poland, present in most families from time to time. Here, in Manekin, located on 
+        the Constitution Square, you can try virtually all possible variations of this dish - savory and sweet ones, with different sauces, vegetarian or not, also 
+        pancakes, desserts, and soups...Everything you need to be happy!
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://manekin.pl/64/warszawa-lokal"></a>Manekin</li>
+        <p><b>4. Krowawarzywa</b></p>
+        This restaurant serves vegetarian food but even vegans can find something like vegan burgers or wraps. 
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://krowarzywa.pl/en/">Krowawarzywa</a></li>
+    </div>
+    </div>
+    <div class="rightcolumn">
+    <div class="card">
+        <div class="flag" style="height:50px;"></div>
+    </div>
+    <div class="card">
+        <h3>Places to visit</h3>
+        <ul>
+            <li>Krakowskie Przedmiescie</li>
+            <li>Copernicus Science Centre</li>
+            <li>Museum of the History of Polish Jews</li>
+            <li>Palace of Culture and Science</li>
+            <li>Winalow Palace</li>
+            <li>Nowy Swiat</li>
+            <li>Warsaw Uprising Museum</li>
+            <li>Royal Castle</li>
+            <li>Lazienki Park</li>
+            <li>Old Town Market Square</li>
+            <li>Muranow</li>
+        </ul>
+    </div><br/>
+
+    <div class="gallery">
+        <a target="_blank" href="warsaw.jpg">
+          <img src="warsaw.jpg" alt="Cinque Terre" class="center">
+        </a>
+        <div class="desc">Warsaw at Night</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="lazienkiPalac.jpg">
+          <img src="lazienkiPalac.jpg" alt="Forest" class="center">
+        </a>
+        <div class="desc">Lazienki Palace</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="nowySwiat.jpg">
+          <img src="nowySwiat.jpg" alt="Northern Lights" class="center">
+        </a>
+        <div class="desc">Nowy Swiat</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="palaceCulture.jpg">
+          <img src="palaceCulture.jpg" alt="Mountains" class="center">
+        </a>
+        <div class="desc">Palace of Culture and Science</div>
+    </div>
+
+
+</body>
+</html>
